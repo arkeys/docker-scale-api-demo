@@ -28,7 +28,7 @@ RUN mkdir -p web-api
 ADD . web-api
 
 # Expose port needed for Node.js or iojs
-EXPOSE 3000
+EXPOSE 80
 
 #Add in supervisor configs.
 ADD supervisord.conf /usr/local/etc/supervisord.conf
